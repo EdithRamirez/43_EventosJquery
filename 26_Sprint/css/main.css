@@ -1,0 +1,108 @@
+/* Inserta tu codigo aqui */
+/*Color y fuente*/
+h1, h3{
+	font-family: Courgette !important;
+	color: #F6BB74 !important;
+}
+h1{
+	font-size: 5em !important;
+}
+ul li a{
+	font-style: italic !important;
+	color: #fff !important;
+}
+/*color fondo*/
+.bg-general{
+	background-color: #2D2735;
+}
+/*imagen de fondo*/
+.bg-image{
+	background: url("../image/header-image.jpg") no-repeat 100%;
+	width: 100%;
+}
+/*fondo columnas morado fuerte*/
+.fondo-morado{
+	background-color: #1B1821;
+}
+/*texto blanco*/
+p{
+	color: #fff;
+}
+/*input formulario*/
+form, input{
+	padding: 4% 2%;
+	border-radius: 5px;
+}
+input{
+	width: 90%;
+	border:none;
+}
+.text-color{
+	color: #fff;
+}
+/*VIDEO*/
+iframe{
+	width: 100%; 
+	height: 350px;
+}
+/*icono de redes*/
+i{
+	color: #fff;
+	margin: 1% 3%;
+	background-color: rgba(255,255,255,.5);
+	border-radius: 50%;
+	padding: 3%;
+}
+/*footer*/
+footer{
+	padding: 2%;
+}
+/*estilos referentes a padding y margin*/
+.pdt-3{
+	padding-top: 3%;
+}
+.pd-laterales{
+	padding: 0 3%; 
+}
+.pd-texto{
+	padding: 2% 3%;
+}
+.pdb-3{
+	padding-bottom: 3%;
+}
+.text-gris{
+	color: #888;
+}
+
+.blanco{
+	background-color: #fff;
+	color: #000;
+}
+/* Responsive */
+@media screen and (min-width : 920px) {
+	.div-ancho{
+		width: 60%;
+		height: 50%;
+		margin: 10%;
+		padding: 5%;
+	}
+	/*imagen de logo*/
+	#logo{
+		padding: 5%	 
+	}		
+}
+
+@media screen and (max-width: 600px) {
+	.div-ancho{
+		width: 90%;
+		margin: 10%;
+		padding: 5%;
+	}
+	/*imagen de logo*/
+	#logo{
+		padding: 2%  
+	}
+	.margen{
+		margin-top: 5%;
+	}
+}
